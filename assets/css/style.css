@@ -1,0 +1,1020 @@
+.navbar{
+    cursor: pointer;
+    margin: 0 auto;
+     display:flex;
+     justify-content: space-between;
+     align-items: center;
+    }
+     
+    
+.left-nav ul{
+    list-style: none;
+    display: inline-flex;
+
+}
+
+
+.left-nav ul li{
+        margin-left: 10px;
+        font-size: large;
+        display: flex;
+        align-items: center;
+    }
+
+
+    
+.left-nav ul li button{
+        text-decoration: none;
+        font-size: 22px;
+        color: orange;
+        font-weight: 600;
+        border-color: rgb(182, 92, 54);
+        display: flex;
+        align-items: center;
+        margin-top: 24px;
+    }
+
+
+.right-nav ul{
+    margin-right: 30px;
+    list-style: none;
+    display: inline-flex;
+
+}
+
+.right-nav ul li{
+    margin-left: 5px;
+    margin-right: 15px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+}
+
+#up-data{
+    cursor: pointer;
+    margin: 0 auto;
+     display: inline-block;
+     justify-content: space-between;
+     align-items: center;
+}
+#up-data .down-nav{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 50px;
+}
+
+.down-nav p{
+    display: flex;
+    margin-left: 20px;
+    font-size: large;
+   
+}
+
+.down-nav button{
+    margin-left: 20px;
+    width: 300px;
+    height: 55px;
+    color: grey;
+    border-radius: 15px;
+    border-color: antiquewhite;
+    background-color: aquamarine;
+}
+
+.down-nav .is{
+    margin-right: 10px;
+    
+}
+
+
+#karusel{
+    width: 100vh;height: 500px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+
+
+
+#karusel .cart1 .up-cart{
+    width: 400px;
+    height: 50px;
+    background-color: yellow;
+    margin-top: -20px;
+}
+
+#karusel .cart1{
+    width: 400px;
+    height: 505px;
+    display: inline-block;
+    border: 5px solid yellow;
+    border-radius: 10px;
+    margin-left: 2px;
+    margin-top: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+
+#karusel .cart1  .name{
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ font-size: 20px;
+}
+
+
+#karusel .cart1 .foto{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+#karusel .cart1 .data{
+   display: inline-block;
+font-size: 10px;
+margin-left: 35px;
+justify-content: space;
+cursor: pointer;
+}
+
+#karusel .cart1 .data .stok{
+    background-color: rgb(77, 144, 203);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+     color: wheat;
+     cursor: pointer;
+}
+
+
+#karusel .cart1 .data .endirim{
+    background-color: rgb(255, 174, 0);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: brown;
+    cursor: pointer;
+
+  
+  
+}
+
+#karusel .cart1 .data .komissiya{
+    background-color: rgb(69, 213, 211);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: blue;
+    cursor: pointer;
+}
+
+#karusel .cart1 .down-cart{
+    display: inline-block;
+ font-size: 10px;
+ margin-left: 100px;
+ justify-content: space;
+ margin-top: 3px;
+ cursor: pointer;
+ }
+
+
+ 
+#karusel .cart1 .down-cart .price{
+    background-color: rgb(77, 144, 203);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 13px;
+     color: wheat;
+     padding: 10px 20px;
+     cursor: pointer;
+
+}
+
+
+#karusel .cart1 .down-cart .klik-butonu{
+    background-color: rgb(255, 174, 0);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: brown;
+    padding: 10px 20px; 
+    cursor: pointer;
+}
+
+#karusel .cart1 .down-cart .sebet{
+    background-color: rgb(69, 213, 211);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: blue;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#datas .fotoss{
+   display: flex;
+    width: 1200px;
+    height: 120px;
+    margin-top: 100px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+
+#brends .fotossss{
+    display: flex;
+     width: 800px;
+     height: 100px;
+     margin-top: 100px;
+     margin-left: 20px;
+     cursor: pointer;
+ }
+
+
+ 
+#youtube .bodys{
+    display: flex;
+    width: 1000px;
+    height: 450px;
+     margin-top: 20px;
+     margin-left: 20px;
+     cursor: pointer;
+ }
+
+
+ 
+#reklam .shekil{
+    display: flex;
+    width: 800px;
+    height: 350px;
+     margin-top: 20px;
+     margin-left: 20px;
+     cursor: pointer;
+ }
+
+
+ .yekun{
+    display: flex;
+    width: 1150px;
+    height: 581px;
+     margin-top: 30px;
+     margin-left: -10px;
+     cursor: pointer;
+ }
+
+
+
+
+ #new-products .yeni-mehsullar .h{
+    font-size: 26px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#new-products .cartss{
+    display: flex;
+    margin-left: 100px;
+
+}
+
+
+
+#new-products .cartt1{
+    width: 40vh;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 1px;
+
+}
+
+
+
+#new-products  .cartt1 .datas1{
+    display: inline-block;
+ font-size: 10px;
+ margin-left: 35px;
+ justify-content: space;
+ cursor: pointer;
+ }
+
+
+ #new-products .cartt1 .datas1 .stok{
+    background-color: rgb(77, 144, 203);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+     color: wheat;
+     cursor: pointer;
+}
+
+
+#new-products .cartt1 .datas1 .endirim{
+    background-color: rgb(255, 174, 0);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: brown;
+    cursor: pointer;
+
+  
+  
+}
+
+#new-products .cartt1 .data .komissiya{
+    background-color: rgb(69, 213, 211);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: blue;
+    cursor: pointer;
+}
+
+#new-products .cartt1 .down-carts1{
+    display: inline-block;
+ font-size: 10px;
+ margin-left: 50px;
+ justify-content: space;
+ margin-top: 3px;
+ cursor: pointer;
+ }
+
+
+ 
+#new-products .cartt1 .down-carts1 .price{
+    background-color: rgb(77, 144, 203);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 13px;
+     color: wheat;
+     cursor: pointer;
+
+}
+
+
+#new-products .cartt1 .down-carts1 .klik-butonu{
+    background-color: rgb(255, 174, 0);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: brown;
+    cursor: pointer;
+}
+
+#new-products .cartt1 .down-carts1 .kredit{
+    background-color: rgb(69, 213, 211);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: blue;
+    cursor: pointer;
+}
+
+ 
+#new-products .cartt2{
+    width: 40vh;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 1px;
+
+}
+
+
+#new-products  .cartt2 .datas2{
+    display: inline-block;
+ font-size: 10px;
+ margin-left: 35px;
+ justify-content: space;
+ cursor: pointer;
+ }
+
+
+ #new-products .cartt2 .datas2 .stok{
+    background-color: rgb(77, 144, 203);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+     color: wheat;
+     cursor: pointer;
+}
+
+
+#new-products .cartt2 .datas2 .endirim{
+    background-color: rgb(255, 174, 0);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: brown;
+    cursor: pointer;
+
+  
+  
+}
+
+
+#new-products .cartt2 .down-carts2{
+    display: inline-block;
+ font-size: 10px;
+ margin-left: 50px;
+ justify-content: space;
+ margin-top: 3px;
+ cursor: pointer;
+ }
+
+
+ 
+#new-products .cartt2 .down-carts2 .price{
+    background-color: rgb(77, 144, 203);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 13px;
+     color: wheat;
+     cursor: pointer;
+
+}
+
+
+#new-products .cartt2 .down-carts2 .klik-butonu{
+    background-color: rgb(255, 174, 0);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: brown;
+    cursor: pointer;
+}
+
+#new-products .cartt2 .down-carts2 .kredit{
+    background-color: rgb(69, 213, 211);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+#new-products .cartt3{
+    width: 40vh;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 1px;
+
+}
+
+
+#new-products  .cartt3 .datas3{
+    display: inline-block;
+ font-size: 10px;
+ margin-left: 35px;
+ justify-content: space;
+ cursor: pointer;
+ }
+
+
+ #new-products .cartt3 .datas3 .stok{
+    background-color: rgb(77, 144, 203);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+     color: wheat;
+     cursor: pointer;
+}
+
+
+#new-products .cartt3 .datas3 .endirim{
+    background-color: rgb(255, 174, 0);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: brown;
+    cursor: pointer;
+
+  
+  
+}
+
+
+#new-products .cartt3 .down-carts3{
+    display: inline-block;
+ font-size: 10px;
+ margin-left: 50px;
+ justify-content: space;
+ margin-top: 3px;
+ cursor: pointer;
+ }
+
+
+ 
+#new-products .cartt3 .down-carts3 .price{
+    background-color: rgb(77, 144, 203);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 13px;
+     color: wheat;
+     cursor: pointer;
+
+}
+
+
+#new-products .cartt3 .down-carts3 .klik-butonu{
+    background-color: rgb(255, 174, 0);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: brown;
+    cursor: pointer;
+}
+
+#new-products .cartt3 .down-carts3 .kredit{
+    background-color: rgb(69, 213, 211);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+#new-products .cartt4{
+    width: 40vh;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 1px;
+}
+
+#new-products  .cartt4 .datas4{
+    display: inline-block;
+ font-size: 10px;
+ margin-left: 35px;
+ justify-content: space;
+ cursor: pointer;
+ }
+
+
+ #new-products .cartt4 .datas4 .stok{
+    background-color: rgb(77, 144, 203);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+     color: wheat;
+     cursor: pointer;
+}
+
+
+#new-products .cartt4 .datas4 .endirim{
+    background-color: rgb(255, 174, 0);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: brown;
+    cursor: pointer;
+
+  
+  
+}
+
+
+#new-products .cartt4 .down-carts4{
+    display: inline-block;
+ font-size: 10px;
+ margin-left: 50px;
+ justify-content: space;
+ margin-top: 3px;
+ cursor: pointer;
+ }
+
+
+ 
+#new-products .cartt4 .down-carts4 .price{
+    background-color: rgb(77, 144, 203);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 13px;
+     color: wheat;
+     cursor: pointer;
+
+}
+
+
+#new-products .cartt4 .down-carts4 .klik-butonu{
+    background-color: rgb(255, 174, 0);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: brown;
+    cursor: pointer;
+}
+
+#new-products .cartt4 .down-carts4 .kredit{
+    background-color: rgb(69, 213, 211);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+#products .cox-satilanlar .h{
+    font-size: 26px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#products .cartss{
+    display: flex;
+    margin-left: 100px;
+
+}
+
+
+
+#products .cartt1{
+    width: 40vh;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 1px;
+
+}
+
+
+
+#products  .cartt1 .datas1{
+    display: inline-block;
+ font-size: 10px;
+ margin-left: 35px;
+ justify-content: space;
+ cursor: pointer;
+ }
+
+
+ #products .cartt1 .datas1 .stok{
+    background-color: rgb(77, 144, 203);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+     color: wheat;
+     cursor: pointer;
+}
+
+
+#products .cartt1 .datas1 .endirim{
+    background-color: rgb(255, 174, 0);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: brown;
+    cursor: pointer;
+
+  
+  
+}
+
+
+#products .cartt1 .down-carts1{
+    display: inline-block;
+ font-size: 10px;
+ margin-left: 50px;
+ justify-content: space;
+ margin-top: 3px;
+ cursor: pointer;
+ }
+
+
+ 
+#products .cartt1 .down-carts1 .price{
+    background-color: rgb(77, 144, 203);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 13px;
+     color: wheat;
+     cursor: pointer;
+
+}
+
+
+#products .cartt1 .down-carts1 .klik-butonu{
+    background-color: rgb(255, 174, 0);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: brown;
+    cursor: pointer;
+}
+
+#products .cartt1 .down-carts1 .kredit{
+    background-color: rgb(69, 213, 211);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+
+
+#products .cartt2{
+    width: 40vh;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 1px;
+
+}
+
+
+
+#products  .cartt2 .datas2{
+    display: inline-block;
+ font-size: 10px;
+ margin-left: 35px;
+ justify-content: space;
+ cursor: pointer;
+ }
+
+
+ #products .cartt2 .datas2 .stok{
+    background-color: rgb(77, 144, 203);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+     color: wheat;
+     cursor: pointer;
+}
+
+
+#products .cartt2 .datas2 .endirim{
+    background-color: rgb(255, 174, 0);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: brown;
+    cursor: pointer;
+
+  
+  
+}
+
+
+#products .cartt2 .down-carts2{
+    display: inline-block;
+ font-size: 10px;
+ margin-left: 50px;
+ justify-content: space;
+ margin-top: 3px;
+ cursor: pointer;
+ }
+
+
+ 
+#products .cartt2 .down-carts2 .price{
+    background-color: rgb(77, 144, 203);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 13px;
+     color: wheat;
+     cursor: pointer;
+
+}
+
+
+#products .cartt2 .down-carts2 .klik-butonu{
+    background-color: rgb(255, 174, 0);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: brown;
+    cursor: pointer;
+}
+
+#products .cartt2 .down-carts2 .kredit{
+    background-color: rgb(69, 213, 211);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+#products .cartt3{
+    width: 40vh;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 1px;
+
+}
+
+
+
+#products  .cartt3 .datas3{
+    display: inline-block;
+ font-size: 10px;
+ margin-left: 35px;
+ justify-content: space;
+ cursor: pointer;
+ }
+
+
+ #products .cartt3 .datas3 .stok{
+    background-color: rgb(77, 144, 203);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+     color: wheat;
+     cursor: pointer;
+}
+
+
+#products .cartt3 .datas3 .endirim{
+    background-color: rgb(255, 174, 0);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: brown;
+    cursor: pointer;
+
+  
+  
+}
+
+
+#products .cartt3 .down-carts3{
+    display: inline-block;
+ font-size: 10px;
+ margin-left: 50px;
+ justify-content: space;
+ margin-top: 3px;
+ cursor: pointer;
+ }
+
+
+ 
+#products .cartt3 .down-carts3 .price{
+    background-color: rgb(77, 144, 203);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 13px;
+     color: wheat;
+     cursor: pointer;
+
+}
+
+
+#products .cartt3 .down-carts3 .klik-butonu{
+    background-color: rgb(255, 174, 0);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: brown;
+    cursor: pointer;
+}
+
+#products .cartt3 .down-carts3 .kredit{
+    background-color: rgb(69, 213, 211);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+
+#products .cartt4{
+    width: 40vh;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 1px;
+
+}
+
+
+
+#products  .cartt4 .datas4{
+    display: inline-block;
+ font-size: 10px;
+ margin-left: 35px;
+ justify-content: space;
+ cursor: pointer;
+ }
+
+
+ #products .cartt4 .datas4 .stok{
+    background-color: rgb(77, 144, 203);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+     color: wheat;
+     cursor: pointer;
+}
+
+
+#products .cartt4 .datas4 .endirim{
+    background-color: rgb(255, 174, 0);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: brown;
+    cursor: pointer;
+
+  
+  
+}
+
+
+#products .cartt4 .down-carts4{
+    display: inline-block;
+ font-size: 10px;
+ margin-left: 50px;
+ justify-content: space;
+ margin-top: 3px;
+ cursor: pointer;
+ }
+
+
+ 
+#products .cartt4 .down-carts4 .price{
+    background-color: rgb(77, 144, 203);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 13px;
+     color: wheat;
+     cursor: pointer;
+
+}
+
+
+#products .cartt4 .down-carts4 .klik-butonu{
+    background-color: rgb(255, 174, 0);
+    border: 1px solid green;
+    border-radius: 10px;
+    fsont-style: italic;
+    color: brown;
+    cursor: pointer;
+}
+
+#products .cartt4 .down-carts4 .kredit{
+    background-color: rgb(69, 213, 211);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-style: italic;
+    color: blue;
+    cursor: pointer;
+}
